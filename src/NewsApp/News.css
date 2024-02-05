@@ -1,0 +1,38 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    justify-content: center;
+    width: 80vw;
+    height: 50vh;
+}
+.container{
+    display: flex;
+    /* flex-direction: column;
+      */
+    flex-wrap: wrap;
+    border: 0.3rem solid black;  
+}
+.maindiv{
+    border: 0.1rem solid black;
+    width: 200px;
+}
+.maindiv img{
+    width: 20%;
+    height: 20%;
+}
+.maindiv h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.maindiv p{
+    font-size: 0.7rem;
+    margin: 0;
+    padding: 0;
+}
+.maindiv a{
+    text-decoration: none;
+    color: black;
+}
